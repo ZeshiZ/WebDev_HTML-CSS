@@ -1,0 +1,244 @@
+﻿
+/* CSS document for Toy Store web page */
+/* Developed by: Sharon Lee, Jeorge Romel Trinidad, Takafumi Hayashi & Zeshi Zhong */
+/* Script Date: November 16, 2021 */
+
+
+body {
+    font-family:'Comic Sans MS', 'Comic Sans MS', Times, serif;
+    font-size: 1.5rem;
+    color:#000;
+    background-color:rgb(255, 255, 255);
+}
+
+#container {
+    width:95%;
+    margin:0 auto;
+    border:2px solid navy;
+    padding: 10px;
+}
+
+#nav {
+    background-color: #f2bb00;
+    line-height:200%;
+    display: block;
+}
+
+#menu li {
+    width: auto;
+    list-style-type:none;
+    display:inline;
+    padding-right:1.5rem;
+}
+
+#nav ul li a:link {
+    text-decoration:none;
+    color: #00cee0;
+}
+
+#nav ul li a:visited {
+    color:#00cee0; 
+}
+
+#nav ul li a:hover {
+    color: #f31a31;
+    background-color:#00cee0;
+    text-decoration:underline;
+}
+
+.doc-title {
+    color: #000 ;
+    background-color:#ffffff;
+    word-spacing:1rem;
+    text-shadow:4px 2px 8px gray;
+}
+
+#leftSidebar {
+    width: 20%;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: white;
+    background-color: #f31a31;
+    height: 100%;
+    overflow:auto;
+    float: left;
+}
+
+#leftSidebar a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#leftSidebar a:visited {
+    text-decoration: none;
+    color: #f2bb00;
+}
+
+#leftSidebar a:hover {
+    color:gold;
+    background-color: #00cee0;
+    text-decoration: underline;
+}
+
+#main h1 {
+    text-align: center;
+}
+
+#main h3 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#main h3 a:link{
+    text-decoration: none;
+    color: navy;
+}
+
+#main h3 a:visited {
+    color: gold;
+}
+#main h3 a:hover {
+    color: white;
+    background-color: #00cee0;
+    text-decoration: underline;
+}
+
+#main table {
+    width: 100%;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    font-size: .8rem;
+}
+
+#main table h2 {
+    font-size: 30px;
+}
+
+#main table h3 {
+    font-size: 20px;
+}
+
+#main table tr td {
+    padding: 5px;
+}
+
+#main table tr td p:last-child {
+    text-align: center;
+}
+
+#main table a:link{
+    text-decoration: none;
+    color: navy;
+}
+
+#main table a:visited {
+    color: gold;
+}
+
+#main table a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#main table tr td:hover {
+    color:white;
+    background-color: #00cee0;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+#footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #f2bb00;
+    clear: both;
+}
+/* *************************** */
+/* generic css class */
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.justify-align {
+    text-align:justify;
+}
+/* *************************** */
+
+figcaption {
+    caption-side: top;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+td {
+    padding: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-size: 25px;
+    color: rgb(0, 155, 155);
+    border: solid pink;
+    background-color: pink;
+}
+
+h4 {
+    color: rgb(0, 155, 155);
+}
+
+#storefront {
+    width: 20%;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    float: left;
+}
+
+#aboutus {
+    width:50%;
+    margin:0 10px 10px 0;
+    padding:5px;
+    float:left;
+}
+
+#contactus {
+    width: 20%;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    height: fit-content;
+    float:right;
+}
+
+#description1 {
+    text-align: justify;
+    font-size: 24px;
+}
+
+#phone-number {
+    border:1px solid black ;
+    padding: 5px;
+}
+
+#logo {
+    border: 10px solid turquoise;
+}

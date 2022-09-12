@@ -1,0 +1,86 @@
+﻿
+/* CSS document for Toy Store web page */
+/* Developed by: Sharon Lee, Jeorge Romel Trinidad, Takafumi Hayashi & Zeshi Zhong */
+/* Script Date: November 16, 2021 */
+
+
+body {
+    font-family:'Comic Sans MS', 'Comic Sans MS', Times, serif;
+    font-size: 2rem;
+    color:#000;
+    background-color:rgb(246, 255, 204);
+}
+
+.doc-title {
+    color:#00e426;
+    background-color:#800080;
+    word-spacing:1rem;
+    text-shadow:4px 2px 8px gray;
+}
+    
+#container {
+    width:95%;
+    margin:0 auto;
+    border:2px solid #00e426;
+    padding: 10px;
+}
+
+#nav {
+    background-color:#800080;
+    line-height:200%;
+    display: block;
+}
+
+#menu li {
+    list-style-type:none;
+    display:inline;
+    padding-right:1.5rem;
+}
+
+#nav ul li a:link {
+    text-decoration:none;
+    color:#00e426;
+}
+
+#nav ul li a:visited {
+    color:#000; 
+}
+
+#nav ul li a:hover {
+    color:orange;
+    background-color:#000;
+    text-decoration:underline;
+}
+
+/* *************************** */
+/* generic css class */
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.justify-align {
+    text-align:justify;
+}
+/* *************************** */
+
+figcaption {
+    caption-side: top;
+}
+
+#leftSidebar {
+    width:30%;
+    margin:0 10px 10px 0;
+    padding:5px;
+    background-color:#ffa500;
+    height: 1000px;
+    overflow:auto;
+    float:left;
+}
